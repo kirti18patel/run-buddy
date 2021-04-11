@@ -68,6 +68,9 @@ header nav ul li a {
       background-size: cover;
       position: relative;
   }
+  .hero-secondary{
+      height: 250px;
+  }
   .hero-signup{
       background-color: #fce138;
       color: #024e76;
