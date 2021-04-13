@@ -7,6 +7,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #39a6b2;
 }
+
+/* header and navigation bar styling */
 header{
     padding: 20px 35px;
     background-color: #39a6b2 ;
@@ -31,93 +33,98 @@ header nav ul li{
     display: inline;
 }
 
-
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-  }
+}
 
-  footer{
-      background: #fce138;
-      width: 100%;
-      padding: 40px 35px;
-  }
-  footer h2{
-      display: inline;
-      color: #024e76;
-      font-size: 30px;
-      margin: 0;
-  }
-  footer div{
-      float: right;
-      line-height: 1.5;
-      text-align: right;
-  }
-  footer a{
-      color: #024e76;
-  }
+/* footer styling */
+footer{
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a{
+    color: #024e76;
+}
 
-  section{
-      padding: 60px;
-  }
-  .hero{
-      background-image: url("../images/hero-bg.jpg");
-      height: 600px;
-      background-position: center;
-      background-size: cover;
-      position: relative;
-  }
-  .hero-secondary{
-      height: 250px;
-  }
-  .hero-signup{
-      background-color: #fce138;
-      color: #024e76;
-      width: 500px;
-      padding: 20px;
-      border: 3px solid #024e;
-      position: absolute;
-      bottom: 120px;
-      right: 140px;
-  }
-  .hero-signup h3{
-      font-size: 24px;
-      margin: 0;
-  }
-  .hero-signup p{
-      margin: 5px 0 15px 0;
-  }
-  .form-input{
-      border: 1px solid #024e76;
-      display: block;
-      padding: 7px 15px;
-      font-size: 16px;
-      color: #024e76;
-      width: 100%;
-      margin-bottom: 15px;
-  }
-  .hero-signup label{
-      margin: 0 5px;
-  }
-  .hero-signup button{
-      background-color: #024e76;
-      color: #fce138;
-      padding: 10px 20px;
-      border: none;
-      font-size: 16px;
-  }
+section{
+    padding: 60px;
+}
 
-  .intro{
-      text-align: center;
-  }
-  .section-title{
-      font-size: 55px;
-      color: #024e76;
-      margin-bottom: 35px;
-      padding: 0 100px 20px 100px;    
-      border-bottom: 3px solid;
-      display: inline-block;
+/* hero image styling */
+.hero{
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-secondary{
+    height: 250px;
+}
+
+/* hero section form styling */
+.hero-signup{
+    background-color: #fce138;
+    color: #024e76;
+    width: 500px;
+    padding: 20px;
+    border: 3px solid #024e;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-signup h3{
+    font-size: 24px;
+    margin: 0;
+}
+.hero-signup p{
+    margin: 5px 0 15px 0;
+}
+.form-input{
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-signup label{
+    margin: 0 5px;
+}
+.hero-signup button{
+    background-color: #024e76;
+    color: #fce138;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+
+/* what do we do section styling */
+.intro{
+    text-align: center;
+}
+.section-title{
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;    
+    border-bottom: 3px solid;
+    display: inline-block;
 }
 .primary-border{
     border-color: #fce138;
@@ -133,6 +140,7 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+/* what you do section styling */
 .steps{
     text-align: center;
     background: #fce138;
@@ -156,6 +164,8 @@ header nav ul li a {
 .steps span{
     font-size: 38px;
 }
+
+/* meet the trainers section */
 .trainers{
     text-align: center;
 }
@@ -197,6 +207,7 @@ header nav ul li a {
     line-height: 1.3;
 }
 
+/* reach out section styling */
 .contact{
     background: #024e76;
     text-align: center;
